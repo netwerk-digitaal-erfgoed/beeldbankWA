@@ -1,3 +1,5 @@
+<https://waterlandsarchief.nl/id/131/5428079> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
+<https://waterlandsarchief.nl/id/131/5428079> <https://schema.org/FOUThasCreated> <https://waterlandsarchief.nl/id/49A616A62CF09791CDBED92DED672C77> .
 <https://waterlandsarchief.nl/id/131/5428394> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
 <https://waterlandsarchief.nl/id/131/5428394> <https://schema.org/FOUThasCreated> <https://waterlandsarchief.nl/id/C897A54E9CF75B95E2CA58A7A603E885> .
 <https://waterlandsarchief.nl/id/131/7314089> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Place> .
@@ -7,10 +9,19 @@
 <https://waterlandsarchief.nl/id/131/7314099> <http://www.w3.org/2000/01/rdf-schema#label> "Middelie" .
 <https://waterlandsarchief.nl/id/131/7314099> <https://schema.org/image> <https://waterlandsarchief.nl/id/2F5D50EB473FAD4B58E78671FBF29C6A> .
 <https://waterlandsarchief.nl/id/131/7314099> <https://schema.org/image> <https://waterlandsarchief.nl/id/C897A54E9CF75B95E2CA58A7A603E885> .
+<https://waterlandsarchief.nl/id/131/7315230> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Place> .
+<https://waterlandsarchief.nl/id/131/7315230> <http://www.w3.org/2000/01/rdf-schema#label> "Monnickendam" .
+<https://waterlandsarchief.nl/id/131/7315230> <https://schema.org/image> <https://waterlandsarchief.nl/id/49A616A62CF09791CDBED92DED672C77> .
 <https://waterlandsarchief.nl/id/2F5D50EB473FAD4B58E78671FBF29C6A> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/ImageObject> .
 <https://waterlandsarchief.nl/id/2F5D50EB473FAD4B58E78671FBF29C6A> <https://schema.org/description> "Cees Koster en Piet Laan, maken een \"Boenwal\" op het erf van de familie Erik van den Hudding, Dit was ter gelegenheid van een toertocht die de historische verenigingen organiseerde in de Zeevang." .
 <https://waterlandsarchief.nl/id/2F5D50EB473FAD4B58E78671FBF29C6A> <https://schema.org/identifier> "HGOM00000318" .
 <https://waterlandsarchief.nl/id/2F5D50EB473FAD4B58E78671FBF29C6A> <https://schema.org/isPartOf> <https://waterlandsarchief.nl/id/76ABA502F6CD4026A2C7BA587CEF351A> .
+<https://waterlandsarchief.nl/id/49A616A62CF09791CDBED92DED672C77> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/ImageObject> .
+<https://waterlandsarchief.nl/id/49A616A62CF09791CDBED92DED672C77> <https://schema.org/about> "Waterland" .
+<https://waterlandsarchief.nl/id/49A616A62CF09791CDBED92DED672C77> <https://schema.org/description> "Schaatsen op het Stinkevuil (Purmer Ee)" .
+<https://waterlandsarchief.nl/id/49A616A62CF09791CDBED92DED672C77> <https://schema.org/identifier> "CMO00300-001" .
+<https://waterlandsarchief.nl/id/49A616A62CF09791CDBED92DED672C77> <https://schema.org/isPartOf> <https://waterlandsarchief.nl/id/CC171F55BAFA43029382CAF35B307AA4> .
+<https://waterlandsarchief.nl/id/49A616A62CF09791CDBED92DED672C77> <https://schema.org/name> "Monnickendam/Stinkevuil" .
 <https://waterlandsarchief.nl/id/6286756> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Person> .
 <https://waterlandsarchief.nl/id/6286756> <https://schema.org/familyName> "Laan" .
 <https://waterlandsarchief.nl/id/6286756> <https://schema.org/givenName> "Piet" .
@@ -32,6 +43,9 @@
 <https://waterlandsarchief.nl/id/C897A54E9CF75B95E2CA58A7A603E885> <https://schema.org/description> "school links en dokterspraktijk rechts" .
 <https://waterlandsarchief.nl/id/C897A54E9CF75B95E2CA58A7A603E885> <https://schema.org/identifier> "HGOM00000555" .
 <https://waterlandsarchief.nl/id/C897A54E9CF75B95E2CA58A7A603E885> <https://schema.org/isPartOf> <https://waterlandsarchief.nl/id/76ABA502F6CD4026A2C7BA587CEF351A> .
+<https://waterlandsarchief.nl/id/CC171F55BAFA43029382CAF35B307AA4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/Collection> .
+<https://waterlandsarchief.nl/id/CC171F55BAFA43029382CAF35B307AA4> <https://schema.org/isPartOf> <https://waterlandsarchief.nl/id/B8CA17023A134E8CA9C22DF85F149D39> .
+<https://waterlandsarchief.nl/id/CC171F55BAFA43029382CAF35B307AA4> <https://schema.org/name> "Maarten Oortwijn" .
 <https://waterlandsarchief.nl/id/FF9F873466F411E39374CBE597083A45> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://schema.org/ImageObject> .
 <https://waterlandsarchief.nl/id/FF9F873466F411E39374CBE597083A45> <https://schema.org/about> "Marken" .
 <https://waterlandsarchief.nl/id/FF9F873466F411E39374CBE597083A45> <https://schema.org/about> "muziek" .

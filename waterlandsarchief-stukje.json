@@ -149,6 +149,60 @@
     "rol": "lst1009/Persoon-op-afbeelding",
     "volgnummer": "6286761",
     "voornaam": "Cees"
-} 
+},
+{
+    "GUID": "CC171F55BAFA43029382CAF35B307AA4",
+    "aet": "rub",
+    "parentItem": "B8CA17023A134E8CA9C22DF85F149D39",
+    "titel": "Maarten Oortwijn",
+    "volgnummer": "5431296"
+} ,
+{
+    "GUID": "49A616A62CF09791CDBED92DED672C77",
+    "_webdisplay": "lst1061/Nee",
+    "aet": "ft",
+    "auteursrecht_beperkt": "lst1061/Nee",
+    "auteursrechten": "vervaardiger",
+    "berging": "Doos CMO 1",
+    "beschrijving": "Schaatsen op het Stinkevuil (Purmer Ee)",
+    "bestand_intern": "lst1061/Ja",
+    "code": "CMO00300-001",
+    "deelcollectie": "lst2/Maarten-Oortwijn",
+    "kadastrale_kaarten": "lst1061/Nee",
+    "parentItem": "CC171F55BAFA43029382CAF35B307AA4",
+    "photoid": "CMO00300-001",
+    "rel113": "131/5427754",
+    "rel165": [
+        "131/5430192",
+        "131/5430098"
+    ],
+    "techniek": "lst2/pen-in-zwart",
+    "titel": "Monnickendam/Stinkevuil",
+    "twd107": "Waterland",
+    "uiterlijkevorm": "lst2/Prenten-tekeningen",
+    "volgnummer": "5431301",
+    "watermerk": "lst1061/Ja",
+    "webwinkel": "lst1061/Nee"
+} ,
+{
+    "GUID": "3FF41432539542F382111A5E29269ECD",
+    "aet": "vafb",
+    "functie": "lst1091/tekenaar",
+    "parentItem": "49A616A62CF09791CDBED92DED672C77",
+    "rel42": "131/5428079",
+    "rol": "lst1092/Vervaardiger",
+    "volgnummer": "5431306"
+} ,
+{
+    "GUID": "65EDED6365E649CAADD00738A8B3A0AC",
+    "aet": "adrs",
+    "followsItem": "3FF41432539542F382111A5E29269ECD",
+    "parentItem": "49A616A62CF09791CDBED92DED672C77",
+    "plaats_tmp": "Monnickendam",
+    "rel39": "131/7315230",
+    "rol": "lst1014/Adres",
+    "straat_tmp": "Stinkevuil",
+    "volgnummer": "5431311"
+}
 ]
 }

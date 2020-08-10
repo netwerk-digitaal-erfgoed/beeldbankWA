@@ -4,10 +4,8 @@ Deze repo bevat een proef-conversie van de beeldbank van het Waterlands Archief 
 
 ## Export uit MAIS-Flexis
 Er zijn twee manieren om data uit te voeren uit MAIS-Flexis:
-* een _uitvoer_ gemaakt met een uitvoerstrategie
-Deze uitvoer kun je zelf beinvloeden. Er is een standaard uitvoerstrategie voor opname in MDWS (voor publicatie op archieven.nl en/of op de eigen website). Een _uitvoer_-bestand is een text bestand.
-* een _export_
-Deze mogelijkheid is een rechtstreekse weergave van de data zoals deze in MAIS-Flexis zit. Het is een XML-bestand, maar is niet helemaal _well-formed_ zodat er een paar kleine aanpassingen moeten worden doorgevoerd voordat deze geautomatiseerd kan worden verwerkt.
+* een _uitvoer_ gemaakt met een uitvoerstrategie. Deze uitvoer kun je zelf beinvloeden. Er is een standaard uitvoerstrategie voor opname in MDWS (voor publicatie op archieven.nl en/of op de eigen website). Een _uitvoer_-bestand is een text bestand.
+* een _export_. Deze mogelijkheid is een rechtstreekse weergave van de data zoals deze in MAIS-Flexis zit. Het is een XML-bestand, maar is niet helemaal _well-formed_ zodat er een paar kleine aanpassingen moeten worden doorgevoerd voordat deze geautomatiseerd kan worden verwerkt.
 
 Voor de conversie van de Beeldbank van het Waterlands Archief heb ik gebruik gemaakt van een XML-export, aangeleverd door het Waterlands Archief. De XML-export heeft als voordeel dat de data compleet is; bij een _uitvoer_ wordt in de standaard _uitvoerstrategie_ een selectie gemaakt en ik weet zonder nadere bestudering van uitvoerstrategie niet welke velden er dan wel en niet zijn opgenomen. Het maken van een _export_ kost bovendien veel minder rekentijd: bij het maken van een _uitvoer_ moeten allerlei combinaties ('joins') in de database worden gelegd.
 
