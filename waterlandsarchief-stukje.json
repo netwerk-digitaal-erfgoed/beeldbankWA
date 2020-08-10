@@ -1,0 +1,154 @@
+{ "@context": "context.json", "@graph": [
+{
+    "GUID": "B8CA17023A134E8CA9C22DF85F149D39",
+    "aet": "col",
+    "code": "BEELDBANK",
+    "imageroot": "BEELDBANK",
+    "soortarchief": "Atlas en Beeldbank",
+    "titel": "BEELDBANK",
+    "volgnummer": "5430230"
+} ,
+{
+    "GUID": "B8691E4090BC4486BCD3109D04FD915F",
+    "aet": "rub",
+    "parentItem": "B8CA17023A134E8CA9C22DF85F149D39",
+    "titel": "Muziekvereniging Juliana Marken",
+    "volgnummer": "5430231"
+} ,
+{
+    "GUID": "FF9F873466F411E39374CBE597083A45",
+    "_webdisplay": "lst1061/Ja",
+    "aet": "ft",
+    "auteursrecht_beperkt": "lst1061/Nee",
+    "auteursrechten": "vervaardiger",
+    "beschrijving": "STICK_ATLAS/Marken, muziekver. Juliana/F001793 Muziekvereniging Juliana",
+    "bestand_intern": "lst1061/Ja",
+    "code": "WAT120003109",
+    "deelcollectie": "lst2/Muziekvereniging-Juliana-Marken",
+    "herkomst": "Margreet Lenstra",
+    "kadastrale_kaarten": "lst1061/Nee",
+    "parentItem": "B8691E4090BC4486BCD3109D04FD915F",
+    "photoid": "WAT120003109",
+    "rel113": "131/5427754",
+    "rel165": "131/5430129",
+    "twd107": [
+        "muziek",
+        "Marken"
+    ],
+    "uiterlijkevorm": "lst2/Foto-s",
+    "volgnummer": "5430236",
+    "watermerk": "lst1061/Ja",
+    "webwinkel": "lst1061/Nee"
+} ,
+{
+    "GUID": "4B5DF23446BE4CAC9D6488441730450D",
+    "aet": "adrs",
+    "parentItem": "FF9F873466F411E39374CBE597083A45",
+    "plaats_tmp": "Marken",
+    "rel39": "131/7314089",
+    "rol": "lst1014/Adres",
+    "volgnummer": "5430241"
+} ,
+{
+    "GUID": "76ABA502F6CD4026A2C7BA587CEF351A",
+    "aet": "rub",
+    "parentItem": "B8CA17023A134E8CA9C22DF85F149D39",
+    "titel": "Historisch Genootschap Oud Middelye",
+    "volgnummer": "6282276"
+} ,
+{
+    "GUID": "C897A54E9CF75B95E2CA58A7A603E885",
+    "_webdisplay": "lst1061/Nee",
+    "aet": "ft",
+    "auteursrecht_beperkt": "lst1061/Nee",
+    "auteursrechten": "vervaardiger",
+    "beschrijving": "school links en dokterspraktijk rechts",
+    "code": "HGOM00000555",
+    "deelcollectie": "lst2/Historisch-Genootschap-Oud-Middelye",
+    "kadastrale_kaarten": "lst1061/Nee",
+    "parentItem": "76ABA502F6CD4026A2C7BA587CEF351A",
+    "photoid": "HGOM00000555",
+    "rel113": "131/5427754",
+    "rel165": [
+        "131/5430153",
+        "131/5430102"
+    ],
+    "uiterlijkevorm": "lst2/Foto-s",
+    "volgnummer": "6289441",
+    "watermerk": "lst1061/Ja",
+    "webwinkel": "lst1061/Nee"
+} ,
+{
+    "GUID": "8BA0B45D6B6E4B6FA13BE01489701291",
+    "aet": "vafb",
+    "functie": "lst1091/fotograaf",
+    "parentItem": "C897A54E9CF75B95E2CA58A7A603E885",
+    "rel42": "131/5428394",
+    "rol": "lst1092/Vervaardiger",
+    "volgnummer": "6289446"
+} ,
+{
+    "GUID": "6E212E011308476DA39C587CE3DE7BD0",
+    "aet": "adrs",
+    "followsItem": "8BA0B45D6B6E4B6FA13BE01489701291",
+    "huisnr": "91",
+    "huisnr_nader": ", 92",
+    "parentItem": "C897A54E9CF75B95E2CA58A7A603E885",
+    "plaats_tmp": "Middelie",
+    "rel39": "131/7314099",
+    "rol": "lst1014/Adres",
+    "straat_tmp": "Middelie",
+    "volgnummer": "6289451"
+},
+{
+    "GUID": "2F5D50EB473FAD4B58E78671FBF29C6A",
+    "_webdisplay": "lst1061/Nee",
+    "aet": "ft",
+    "auteursrecht_beperkt": "lst1061/Nee",
+    "auteursrechten": "vervaardiger",
+    "beschrijving": "Cees Koster en Piet Laan, maken een \"Boenwal\" op het erf van de familie Erik van den Hudding, Dit was ter gelegenheid van een toertocht die de historische verenigingen organiseerde in de Zeevang.",
+    "code": "HGOM00000318",
+    "deelcollectie": "lst2/Historisch-Genootschap-Oud-Middelye",
+    "kadastrale_kaarten": "lst1061/Nee",
+    "parentItem": "76ABA502F6CD4026A2C7BA587CEF351A",
+    "photoid": "HGOM00000318",
+    "rel113": "131/5427754",
+    "uiterlijkevorm": "lst2/Foto-s",
+    "volgnummer": "6286746",
+    "watermerk": "lst1061/Ja",
+    "webwinkel": "lst1061/Nee"
+} ,
+{
+    "GUID": "CA62828AE268410E842EC410CFCBB3DB",
+    "aet": "adrs",
+    "huisnr": "114",
+    "huisnr_nader": "a",
+    "parentItem": "2F5D50EB473FAD4B58E78671FBF29C6A",
+    "plaats_tmp": "Middelie",
+    "rel39": "131/7314099",
+    "rol": "lst1014/Adres",
+    "straat_tmp": "Middelie",
+    "volgnummer": "6286751"
+} ,
+{
+    "GUID": "56A442E5290E4ABE876A0ECFDC68BD76",
+    "achternaam": "Laan",
+    "aet": "psafb",
+    "followsItem": "CA62828AE268410E842EC410CFCBB3DB",
+    "parentItem": "2F5D50EB473FAD4B58E78671FBF29C6A",
+    "rol": "lst1009/Persoon-op-afbeelding",
+    "volgnummer": "6286756",
+    "voornaam": "Piet"
+} ,
+{
+    "GUID": "EC8F934B6C984BAD96879548E57F026E",
+    "achternaam": "Koster",
+    "aet": "psafb",
+    "followsItem": "56A442E5290E4ABE876A0ECFDC68BD76",
+    "parentItem": "2F5D50EB473FAD4B58E78671FBF29C6A",
+    "rol": "lst1009/Persoon-op-afbeelding",
+    "volgnummer": "6286761",
+    "voornaam": "Cees"
+} 
+]
+}

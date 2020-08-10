@@ -1,0 +1,62 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://waterlandsarchief.nl/id/131/5428394>
+    a <https://schema.org/Person> ;
+    <https://schema.org/FOUThasCreated> <https://waterlandsarchief.nl/id/C897A54E9CF75B95E2CA58A7A603E885> .
+
+<https://waterlandsarchief.nl/id/131/7314089>
+    a <https://schema.org/Place> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Marken" ;
+    <https://schema.org/image> <https://waterlandsarchief.nl/id/FF9F873466F411E39374CBE597083A45> .
+
+<https://waterlandsarchief.nl/id/131/7314099>
+    a <https://schema.org/Place> ;
+    <http://www.w3.org/2000/01/rdf-schema#label> "Middelie" ;
+    <https://schema.org/image> <https://waterlandsarchief.nl/id/2F5D50EB473FAD4B58E78671FBF29C6A>, <https://waterlandsarchief.nl/id/C897A54E9CF75B95E2CA58A7A603E885> .
+
+<https://waterlandsarchief.nl/id/2F5D50EB473FAD4B58E78671FBF29C6A>
+    a <https://schema.org/ImageObject> ;
+    <https://schema.org/description> "Cees Koster en Piet Laan, maken een \"Boenwal\" op het erf van de familie Erik van den Hudding, Dit was ter gelegenheid van een toertocht die de historische verenigingen organiseerde in de Zeevang." ;
+    <https://schema.org/identifier> "HGOM00000318" ;
+    <https://schema.org/isPartOf> <https://waterlandsarchief.nl/id/76ABA502F6CD4026A2C7BA587CEF351A> .
+
+<https://waterlandsarchief.nl/id/6286756>
+    a <https://schema.org/Person> ;
+    <https://schema.org/familyName> "Laan" ;
+    <https://schema.org/givenName> "Piet" ;
+    <https://schema.org/image> <https://waterlandsarchief.nl/id/2F5D50EB473FAD4B58E78671FBF29C6A> .
+
+<https://waterlandsarchief.nl/id/6286761>
+    a <https://schema.org/Person> ;
+    <https://schema.org/familyName> "Koster" ;
+    <https://schema.org/givenName> "Cees" ;
+    <https://schema.org/image> <https://waterlandsarchief.nl/id/2F5D50EB473FAD4B58E78671FBF29C6A> .
+
+<https://waterlandsarchief.nl/id/76ABA502F6CD4026A2C7BA587CEF351A>
+    a <https://schema.org/Collection> ;
+    <https://schema.org/isPartOf> <https://waterlandsarchief.nl/id/B8CA17023A134E8CA9C22DF85F149D39> ;
+    <https://schema.org/name> "Historisch Genootschap Oud Middelye" .
+
+<https://waterlandsarchief.nl/id/B8691E4090BC4486BCD3109D04FD915F>
+    a <https://schema.org/Collection> ;
+    <https://schema.org/isPartOf> <https://waterlandsarchief.nl/id/B8CA17023A134E8CA9C22DF85F149D39> ;
+    <https://schema.org/name> "Muziekvereniging Juliana Marken" .
+
+<https://waterlandsarchief.nl/id/B8CA17023A134E8CA9C22DF85F149D39>
+    a <https://schema.org/Collection> ;
+    <https://schema.org/identifier> "BEELDBANK" ;
+    <https://schema.org/name> "BEELDBANK" .
+
+<https://waterlandsarchief.nl/id/C897A54E9CF75B95E2CA58A7A603E885>
+    a <https://schema.org/ImageObject> ;
+    <https://schema.org/description> "school links en dokterspraktijk rechts" ;
+    <https://schema.org/identifier> "HGOM00000555" ;
+    <https://schema.org/isPartOf> <https://waterlandsarchief.nl/id/76ABA502F6CD4026A2C7BA587CEF351A> .
+
+<https://waterlandsarchief.nl/id/FF9F873466F411E39374CBE597083A45>
+    a <https://schema.org/ImageObject> ;
+    <https://schema.org/about> "Marken", "muziek" ;
+    <https://schema.org/description> "STICK_ATLAS/Marken, muziekver. Juliana/F001793 Muziekvereniging Juliana" ;
+    <https://schema.org/identifier> "WAT120003109" ;
+    <https://schema.org/isPartOf> <https://waterlandsarchief.nl/id/B8691E4090BC4486BCD3109D04FD915F> .
+

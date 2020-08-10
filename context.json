@@ -1,0 +1,72 @@
+{
+"@context": {
+    "@version": 1.1, 
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "dc": "http://purl.org/dc/elements/1.1/", 
+    "dct" : "http://purl.org/dc/terms/",
+    "sdo": "https://schema.org/", 
+    "@base": "https://waterlandsarchief.nl/id/",
+    "aet": "@type",
+    "code" : "sdo:identifier",
+    "beschrijving" : "sdo:description",
+    "titel" : "sdo:name",
+    "datumvervaardiging" : "sdo:dateCreated",
+    "twd107" : "sdo:about",
+    "parentItem": {
+        "@id": "sdo:isPartOf",
+        "@type": "@id"
+    },
+    "col": {
+        "@id": "sdo:Collection",
+        "@context": {
+            "GUID" : "@id"
+        }
+    },
+    "rub": {
+        "@id": "sdo:Collection",
+        "@context": {
+            "GUID" : "@id"
+        }
+    },
+    "ft": {
+        "@id": "sdo:ImageObject",
+        "@context": {
+            "GUID" : "@id"
+        }
+    },
+    "adrs": {
+        "@id": "sdo:Place",
+        "@context": {
+            "plaats_tmp" : "rdfs:label",
+            "rel39" : "@id",
+            "parentItem": {
+                "@id": "sdo:image",
+                "@type": "@id"
+            }
+        }
+    },
+    "vafb": {
+        "@id": "sdo:Person",
+        "@context": {
+            "rel42" : "@id",
+            "parentItem": {
+                "@id": "sdo:FOUThasCreated",
+                "@type": "@id"
+            }
+        }
+    },
+    "psafb": {
+        "@id": "sdo:Person",
+        "@context": {
+            "achternaam" : "sdo:familyName",
+            "voornaam" : "sdo:givenName",
+            "volgnummer" : "@id",
+            "parentItem": {
+                "@id": "sdo:image",
+                "@type": "@id"
+            }
+        }
+    }
+}
+}
