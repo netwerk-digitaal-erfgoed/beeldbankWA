@@ -17,7 +17,7 @@ Ik heb nog geen XML exports van de context toegangen, dus heb de links voor nu e
 ## Conversie met MDWS-to-JSONLD
 Rick Companje heeft voor mij met [zijn python](https://github.com/hetutrechtsarchief/MF-Export-XML-to-JSON) script de _export_ geconverteerd naar JSONLD. In deze JSONLD verwijst hij naar een lokaal 'context.json'-bestand. (TODO: een nette verwijzing naar een basis-context.json via een URL).
 
-Voor de verwerking van de data met behulp van dit script is een look-up table nodig, die de link bijhoudt tussen de interne identifier en de GUID: we willen de relatie tussen verschillende 'dingen' (bv foto en vervaardiger) namelijk leggen op basis van de GUID. Deze look-up table is opgenomen in een MySQL database. Je kunt het geheel op je eigen machine als localhost installeren, of gebruik maken van mi2rdf.netwerkdigitaalerfgoed.nl. 
+Voor de verwerking van de data met behulp van dit script is een look-up table nodig, die de link bijhoudt tussen de interne identifier en de GUID: we willen de relatie tussen verschillende 'dingen' (bv foto en vervaardiger) namelijk leggen op basis van de GUID. Deze look-up table is opgenomen in een MySQL database. Je kunt het geheel op je eigen machine als localhost installeren, of gebruik maken van https://demo.netwerkdigitaalerfgoed.nl/mi2rdf. 
 
 ### StaVaZa 20200810
 Rick heeft voor mij de conversie uitgevoerd op zijn machine. TODO: pythonscript uitrollen op [mi2rdf](https://demo.netwerkdigitaalerfgoed.nl/mi2rdf).
