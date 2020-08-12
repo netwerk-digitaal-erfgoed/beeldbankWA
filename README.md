@@ -15,7 +15,7 @@ Dat laatste is ook het voordeel van een _uitvoer_: je kunt data uit verschillend
 Ik heb nog geen XML exports van de context toegangen, dus heb de links voor nu even gelegd met de interne id's van MAIS-Flexis.
 
 ## Conversie met MDWS-to-JSONLD
-Rick Companje heeft voor mij met [zijn python](https://github.com/hetutrechtsarchief/MF-Export-XML-to-JSON) script de _export_ geconverteerd naar JSONLD. In deze JSONLD zijn alle veldnamen overgenomen zoals deze ook in MAIS-Flexis zijn gebruikt, maar omdat er nu sprake is van JSON kan deze gemakkelijker worden verwerkt tot iets anders. Door er een verwijzing in op te nemen naar een lokaal 'context.json'-bestand kan deze data verwerkt worden tot Linked Open Data. (TODO: een nette verwijzing naar een basis-context.json via een URL).
+Rick Companje heeft voor mij met [zijn python](https://github.com/hetutrechtsarchief/MF-Export-XML-to-JSON) script de _export_ geconverteerd naar JSONLD. In deze JSONLD zijn alle veldnamen overgenomen zoals deze ook in MAIS-Flexis zijn gebruikt, maar omdat er nu sprake is van JSON kan deze gemakkelijker worden verwerkt tot iets anders. 
 
 Voor de verwerking van de data met behulp van dit script is een look-up table nodig, die de link bijhoudt tussen de interne identifier en de GUID: we willen de relatie tussen verschillende 'dingen' (bv foto en vervaardiger) namelijk leggen op basis van de GUID. Deze look-up table is opgenomen in een MySQL database. Je kunt het geheel op je eigen machine als localhost installeren, of gebruik maken van https://demo.netwerkdigitaalerfgoed.nl/mi2rdf. 
 
@@ -23,7 +23,9 @@ Voor de verwerking van de data met behulp van dit script is een look-up table no
 Rick heeft voor mij de conversie uitgevoerd op zijn machine. TODO: pythonscript uitrollen op [mi2rdf](https://demo.netwerkdigitaalerfgoed.nl/mi2rdf).
 
 ## JSONLD context bestand voor schema.org
-Ik heb een contextfile [context.json](context.json) gemaakt die van zo veel mogelijk relevante velden in de JSONLD-file een 'context' aangeeft in [schema.org](https://schema.org/). Zo is van elk object dat volgens de database een foto is, aangegeven dat het rdf:type sdo:ImageObject is. Om de Linked Data te kunnen bestuderen in andere RDF-serializaties, heb ik met behulp van [jsonld-cli](https://github.com/digitalbazaar/jsonld-cli) de JSON-LD omgezet naar NQuads. NQuads is de enige niet-json RDF-serializatie die jsonld-cli ondersteunt.
+Door er een verwijzing in op te nemen naar een lokaal JSONLD context-bestand kan deze data verwerkt worden tot Linked Open Data. (TODO: een nette verwijzing naar een basis-context.json via een URL). Deze context zou heel basaal kunnen zijn, zoals [basic.json](basic.json). Deze JSONLD-context maakt van alle veldnamen zoals deze in de JSON staat een IRI, door er een baseIRI voor de resources voor te plakken en een vocab-baseIRI voor de properties te plakken. Nu is er sprake van valide Linked Data, die kan worden ingelezen in een triplestore en daar kan worden bevraagd. Vanuit deze Linked Data zou ook met SPARQL CONSTRUCT queries een mapping worden gemaakt op andere ontologieen.
+
+Ik heb -specifiek voor de beeldbank van het Waterlands Archief- een contextfile [context.json](context.json) gemaakt die van zo veel mogelijk relevante velden in de JSONLD-file een 'context' aangeeft in [schema.org](https://schema.org/). Zo is van elk object dat volgens de database een foto is, aangegeven dat het rdf:type sdo:ImageObject is. Om de Linked Data te kunnen bestuderen in andere RDF-serializaties, heb ik met behulp van [jsonld-cli](https://github.com/digitalbazaar/jsonld-cli) de JSON-LD omgezet naar NQuads. NQuads is de enige niet-json RDF-serializatie die jsonld-cli ondersteunt.
 
 ```
 $ jsonld normalize waterlandsarchief-stukje.json > waterlandsarchief-stukje.nq

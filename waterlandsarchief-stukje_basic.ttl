@@ -1,0 +1,182 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<https://archief.io/id/2F5D50EB473FAD4B58E78671FBF29C6A>
+    <https://archief.io/veld#_webdisplay> "lst1061/Nee" ;
+    <https://archief.io/veld#aet> "ft" ;
+    <https://archief.io/veld#auteursrecht_beperkt> "lst1061/Nee" ;
+    <https://archief.io/veld#auteursrechten> "vervaardiger" ;
+    <https://archief.io/veld#beschrijving> "Cees Koster en Piet Laan, maken een \"Boenwal\" op het erf van de familie Erik van den Hudding, Dit was ter gelegenheid van een toertocht die de historische verenigingen organiseerde in de Zeevang." ;
+    <https://archief.io/veld#code> "HGOM00000318" ;
+    <https://archief.io/veld#deelcollectie> "lst2/Historisch-Genootschap-Oud-Middelye" ;
+    <https://archief.io/veld#kadastrale_kaarten> "lst1061/Nee" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/76ABA502F6CD4026A2C7BA587CEF351A> ;
+    <https://archief.io/veld#photoid> "HGOM00000318" ;
+    <https://archief.io/veld#rel113> "131/5427754" ;
+    <https://archief.io/veld#uiterlijkevorm> "lst2/Foto-s" ;
+    <https://archief.io/veld#volgnummer> "6286746" ;
+    <https://archief.io/veld#watermerk> "lst1061/Ja" ;
+    <https://archief.io/veld#webwinkel> "lst1061/Nee" .
+
+<https://archief.io/id/3FF41432539542F382111A5E29269ECD>
+    <https://archief.io/veld#aet> "vafb" ;
+    <https://archief.io/veld#functie> "lst1091/tekenaar" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/49A616A62CF09791CDBED92DED672C77> ;
+    <https://archief.io/veld#rel42> "131/5428079" ;
+    <https://archief.io/veld#rol> "lst1092/Vervaardiger" ;
+    <https://archief.io/veld#volgnummer> "5431306" .
+
+<https://archief.io/id/49A616A62CF09791CDBED92DED672C77>
+    <https://archief.io/veld#_webdisplay> "lst1061/Nee" ;
+    <https://archief.io/veld#aet> "ft" ;
+    <https://archief.io/veld#auteursrecht_beperkt> "lst1061/Nee" ;
+    <https://archief.io/veld#auteursrechten> "vervaardiger" ;
+    <https://archief.io/veld#berging> "Doos CMO 1" ;
+    <https://archief.io/veld#beschrijving> "Schaatsen op het Stinkevuil (Purmer Ee)" ;
+    <https://archief.io/veld#bestand_intern> "lst1061/Ja" ;
+    <https://archief.io/veld#code> "CMO00300-001" ;
+    <https://archief.io/veld#deelcollectie> "lst2/Maarten-Oortwijn" ;
+    <https://archief.io/veld#kadastrale_kaarten> "lst1061/Nee" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/CC171F55BAFA43029382CAF35B307AA4> ;
+    <https://archief.io/veld#photoid> "CMO00300-001" ;
+    <https://archief.io/veld#rel113> "131/5427754" ;
+    <https://archief.io/veld#rel165> "131/5430098", "131/5430192" ;
+    <https://archief.io/veld#techniek> "lst2/pen-in-zwart" ;
+    <https://archief.io/veld#titel> "Monnickendam/Stinkevuil" ;
+    <https://archief.io/veld#twd107> "Waterland" ;
+    <https://archief.io/veld#uiterlijkevorm> "lst2/Prenten-tekeningen" ;
+    <https://archief.io/veld#volgnummer> "5431301" ;
+    <https://archief.io/veld#watermerk> "lst1061/Ja" ;
+    <https://archief.io/veld#webwinkel> "lst1061/Nee" .
+
+<https://archief.io/id/4B5DF23446BE4CAC9D6488441730450D>
+    <https://archief.io/veld#aet> "adrs" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/FF9F873466F411E39374CBE597083A45> ;
+    <https://archief.io/veld#plaats_tmp> "Marken" ;
+    <https://archief.io/veld#rel39> "131/7314089" ;
+    <https://archief.io/veld#rol> "lst1014/Adres" ;
+    <https://archief.io/veld#volgnummer> "5430241" .
+
+<https://archief.io/id/56A442E5290E4ABE876A0ECFDC68BD76>
+    <https://archief.io/veld#achternaam> "Laan" ;
+    <https://archief.io/veld#aet> "psafb" ;
+    <https://archief.io/veld#followsItem> "CA62828AE268410E842EC410CFCBB3DB" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/2F5D50EB473FAD4B58E78671FBF29C6A> ;
+    <https://archief.io/veld#rol> "lst1009/Persoon-op-afbeelding" ;
+    <https://archief.io/veld#volgnummer> "6286756" ;
+    <https://archief.io/veld#voornaam> "Piet" .
+
+<https://archief.io/id/65EDED6365E649CAADD00738A8B3A0AC>
+    <https://archief.io/veld#aet> "adrs" ;
+    <https://archief.io/veld#followsItem> "3FF41432539542F382111A5E29269ECD" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/49A616A62CF09791CDBED92DED672C77> ;
+    <https://archief.io/veld#plaats_tmp> "Monnickendam" ;
+    <https://archief.io/veld#rel39> "131/7315230" ;
+    <https://archief.io/veld#rol> "lst1014/Adres" ;
+    <https://archief.io/veld#straat_tmp> "Stinkevuil" ;
+    <https://archief.io/veld#volgnummer> "5431311" .
+
+<https://archief.io/id/6E212E011308476DA39C587CE3DE7BD0>
+    <https://archief.io/veld#aet> "adrs" ;
+    <https://archief.io/veld#followsItem> "8BA0B45D6B6E4B6FA13BE01489701291" ;
+    <https://archief.io/veld#huisnr> "91" ;
+    <https://archief.io/veld#huisnr_nader> ", 92" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/C897A54E9CF75B95E2CA58A7A603E885> ;
+    <https://archief.io/veld#plaats_tmp> "Middelie" ;
+    <https://archief.io/veld#rel39> "131/7314099" ;
+    <https://archief.io/veld#rol> "lst1014/Adres" ;
+    <https://archief.io/veld#straat_tmp> "Middelie" ;
+    <https://archief.io/veld#volgnummer> "6289451" .
+
+<https://archief.io/id/76ABA502F6CD4026A2C7BA587CEF351A>
+    <https://archief.io/veld#aet> "rub" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/B8CA17023A134E8CA9C22DF85F149D39> ;
+    <https://archief.io/veld#titel> "Historisch Genootschap Oud Middelye" ;
+    <https://archief.io/veld#volgnummer> "6282276" .
+
+<https://archief.io/id/8BA0B45D6B6E4B6FA13BE01489701291>
+    <https://archief.io/veld#aet> "vafb" ;
+    <https://archief.io/veld#functie> "lst1091/fotograaf" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/C897A54E9CF75B95E2CA58A7A603E885> ;
+    <https://archief.io/veld#rel42> "131/5428394" ;
+    <https://archief.io/veld#rol> "lst1092/Vervaardiger" ;
+    <https://archief.io/veld#volgnummer> "6289446" .
+
+<https://archief.io/id/B8691E4090BC4486BCD3109D04FD915F>
+    <https://archief.io/veld#aet> "rub" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/B8CA17023A134E8CA9C22DF85F149D39> ;
+    <https://archief.io/veld#titel> "Muziekvereniging Juliana Marken" ;
+    <https://archief.io/veld#volgnummer> "5430231" .
+
+<https://archief.io/id/B8CA17023A134E8CA9C22DF85F149D39>
+    <https://archief.io/veld#aet> "col" ;
+    <https://archief.io/veld#code> "BEELDBANK" ;
+    <https://archief.io/veld#imageroot> "BEELDBANK" ;
+    <https://archief.io/veld#soortarchief> "Atlas en Beeldbank" ;
+    <https://archief.io/veld#titel> "BEELDBANK" ;
+    <https://archief.io/veld#volgnummer> "5430230" .
+
+<https://archief.io/id/C897A54E9CF75B95E2CA58A7A603E885>
+    <https://archief.io/veld#_webdisplay> "lst1061/Nee" ;
+    <https://archief.io/veld#aet> "ft" ;
+    <https://archief.io/veld#auteursrecht_beperkt> "lst1061/Nee" ;
+    <https://archief.io/veld#auteursrechten> "vervaardiger" ;
+    <https://archief.io/veld#beschrijving> "school links en dokterspraktijk rechts" ;
+    <https://archief.io/veld#code> "HGOM00000555" ;
+    <https://archief.io/veld#deelcollectie> "lst2/Historisch-Genootschap-Oud-Middelye" ;
+    <https://archief.io/veld#kadastrale_kaarten> "lst1061/Nee" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/76ABA502F6CD4026A2C7BA587CEF351A> ;
+    <https://archief.io/veld#photoid> "HGOM00000555" ;
+    <https://archief.io/veld#rel113> "131/5427754" ;
+    <https://archief.io/veld#rel165> "131/5430102", "131/5430153" ;
+    <https://archief.io/veld#uiterlijkevorm> "lst2/Foto-s" ;
+    <https://archief.io/veld#volgnummer> "6289441" ;
+    <https://archief.io/veld#watermerk> "lst1061/Ja" ;
+    <https://archief.io/veld#webwinkel> "lst1061/Nee" .
+
+<https://archief.io/id/CA62828AE268410E842EC410CFCBB3DB>
+    <https://archief.io/veld#aet> "adrs" ;
+    <https://archief.io/veld#huisnr> "114" ;
+    <https://archief.io/veld#huisnr_nader> "a" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/2F5D50EB473FAD4B58E78671FBF29C6A> ;
+    <https://archief.io/veld#plaats_tmp> "Middelie" ;
+    <https://archief.io/veld#rel39> "131/7314099" ;
+    <https://archief.io/veld#rol> "lst1014/Adres" ;
+    <https://archief.io/veld#straat_tmp> "Middelie" ;
+    <https://archief.io/veld#volgnummer> "6286751" .
+
+<https://archief.io/id/CC171F55BAFA43029382CAF35B307AA4>
+    <https://archief.io/veld#aet> "rub" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/B8CA17023A134E8CA9C22DF85F149D39> ;
+    <https://archief.io/veld#titel> "Maarten Oortwijn" ;
+    <https://archief.io/veld#volgnummer> "5431296" .
+
+<https://archief.io/id/EC8F934B6C984BAD96879548E57F026E>
+    <https://archief.io/veld#achternaam> "Koster" ;
+    <https://archief.io/veld#aet> "psafb" ;
+    <https://archief.io/veld#followsItem> "56A442E5290E4ABE876A0ECFDC68BD76" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/2F5D50EB473FAD4B58E78671FBF29C6A> ;
+    <https://archief.io/veld#rol> "lst1009/Persoon-op-afbeelding" ;
+    <https://archief.io/veld#volgnummer> "6286761" ;
+    <https://archief.io/veld#voornaam> "Cees" .
+
+<https://archief.io/id/FF9F873466F411E39374CBE597083A45>
+    <https://archief.io/veld#_webdisplay> "lst1061/Ja" ;
+    <https://archief.io/veld#aet> "ft" ;
+    <https://archief.io/veld#auteursrecht_beperkt> "lst1061/Nee" ;
+    <https://archief.io/veld#auteursrechten> "vervaardiger" ;
+    <https://archief.io/veld#beschrijving> "STICK_ATLAS/Marken, muziekver. Juliana/F001793 Muziekvereniging Juliana" ;
+    <https://archief.io/veld#bestand_intern> "lst1061/Ja" ;
+    <https://archief.io/veld#code> "WAT120003109" ;
+    <https://archief.io/veld#deelcollectie> "lst2/Muziekvereniging-Juliana-Marken" ;
+    <https://archief.io/veld#herkomst> "Margreet Lenstra" ;
+    <https://archief.io/veld#kadastrale_kaarten> "lst1061/Nee" ;
+    <https://archief.io/veld#parentItem> <https://archief.io/id/B8691E4090BC4486BCD3109D04FD915F> ;
+    <https://archief.io/veld#photoid> "WAT120003109" ;
+    <https://archief.io/veld#rel113> "131/5427754" ;
+    <https://archief.io/veld#rel165> "131/5430129" ;
+    <https://archief.io/veld#twd107> "Marken", "muziek" ;
+    <https://archief.io/veld#uiterlijkevorm> "lst2/Foto-s" ;
+    <https://archief.io/veld#volgnummer> "5430236" ;
+    <https://archief.io/veld#watermerk> "lst1061/Ja" ;
+    <https://archief.io/veld#webwinkel> "lst1061/Nee" .
+
