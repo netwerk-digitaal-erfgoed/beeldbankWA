@@ -15,7 +15,7 @@ Dat laatste is ook het voordeel van een _uitvoer_: je kunt data uit verschillend
 Ik heb nog geen XML exports van de context toegangen, dus heb de links voor nu even gelegd met de interne id's van MAIS-Flexis.
 
 ## Conversie met MDWS-to-JSONLD
-Rick Companje heeft voor mij met [zijn python](https://github.com/hetutrechtsarchief/MF-Export-XML-to-JSON) script de _export_ geconverteerd naar JSONLD. In deze JSONLD verwijst hij naar een lokaal 'context.json'-bestand. (TODO: een nette verwijzing naar een basis-context.json via een URL).
+Rick Companje heeft voor mij met [zijn python](https://github.com/hetutrechtsarchief/MF-Export-XML-to-JSON) script de _export_ geconverteerd naar JSONLD. In deze JSONLD zijn alle veldnamen overgenomen zoals deze ook in MAIS-Flexis zijn gebruikt, maar omdat er nu sprake is van JSON kan deze gemakkelijker worden verwerkt tot iets anders. Door er een verwijzing in op te nemen naar een lokaal 'context.json'-bestand kan deze data verwerkt worden tot Linked Open Data. (TODO: een nette verwijzing naar een basis-context.json via een URL).
 
 Voor de verwerking van de data met behulp van dit script is een look-up table nodig, die de link bijhoudt tussen de interne identifier en de GUID: we willen de relatie tussen verschillende 'dingen' (bv foto en vervaardiger) namelijk leggen op basis van de GUID. Deze look-up table is opgenomen in een MySQL database. Je kunt het geheel op je eigen machine als localhost installeren, of gebruik maken van https://demo.netwerkdigitaalerfgoed.nl/mi2rdf. 
 
